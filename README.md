@@ -13,8 +13,13 @@
 
 我会一点`C++` `Java`
 ````
-public void print(){
-  System.out.println("好好学习 天天向上");
+public class Test {
+  public void print() {
+    System.out.println("好好学习 天天向上");
+  }
+  public static void main(String args[]) {
+    print();
+  }
 }
-print();
+
 ````
